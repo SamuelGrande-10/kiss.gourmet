@@ -1,242 +1,252 @@
 <!<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kiss.gourmet</title>
-  
-<link rel="shortcut icon" href="imagens/log01.jpg" type="image/x-icon">
+  <html lang="pt-br">
 
-  <style>
-    :root {
-      --rosa-claro: #fa62ccd8;
-      --rosa: #fa62ccd8;
-      --marrom: #5e3c2c;
-      --bege: #fff8f1;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kiss Gourmet | Confeitaria em Aracaju</title>
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <link rel="shortcut icon" href="imagens/log01.jpg" type="image/x-icon">
 
-    h2{ margin: 10px;
+    <style>
+      :root {
+        --rosa-claro: #fa62ccd8;
+        --rosa: #fa62ccd8;
+        --marrom: #5e3c2c;
+        --bege: #fff8f1;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h2 {
+        margin: 10px;
         padding: 10px;
-    }
+      }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--bege);
-      color: var(--marrom);
-    }
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: var(--bege);
+        color: var(--marrom);
+      }
 
-    header {
-      background-color: var(--rosa);
-      color: black;
-      text-align: center;
-      padding: 2rem 1rem;
-    }
+      header {
+        background-color: var(--rosa);
+        color: black;
+        text-align: center;
+        padding: 2rem 1rem;
+      }
 
-    header h1 {
-      font-size: 2.5rem;
-    font-family: sans-serif;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      font-style: italic;
-    }
-
-    nav {
-  
-      display: flex;
-      justify-content: left;
-      gap: 2rem;
-      padding: 0.2rem;
-      flex-wrap: wrap;
-    }
-
-    nav a {
-      color: var(--marrom);
-      margin: 5px;
-      padding: 10px;
-      text-decoration: none;
-      font-weight: bold;
-
-      border-radius: 20px;
-      transition-duration: 0.5s;
-      border: 2px solid black;
-      background-color: #fa62ccd8;;
-    }
-
-    nav > a:hover{
-      color: white;
-      padding: 5px;
-    }
-
-    a.inicio{
-      color: #fa62ccd8;
-      background-color: white;
-    }
-
-    a.kiss{
-      text-decoration:none ;
-      color: black;
-      background-color: white;
-    }
-
-    a.kiss:hover{
-      background-color: blue;
-      color: var(--rosa);
-    }
-
-    .section {
-      padding: 2rem 1rem;
-      max-width: 1200px;
-      margin: auto;
-      
-    }
-
-    section#contato{
-      box-shadow: 0px 0px 10px black;
-    }
-
-    section#sobre{
-      box-shadow: 0px 0px 10px black;
-      text-indent: 30px;
-    }
-
-    section > h2{
-      background-color: white;
-      border-radius: 10px;
-    }
-
-    section > p{
-      padding: 10px;
-      font-weight: bold;
-    }
-
-    section > ul{
-      list-style-type: '\2714\00A0\00A0';
-      font-weight: bold;
-      padding: 15px;
-      columns: 2;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-
-    .about, .contact {
-      background-color: var(--rosa-claro);
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin-top: 2rem;
-    }
-
-    footer {
-      background-color: var(--rosa);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-
-    img.logo{
-      width: 150px;
-      height: 100px;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-    }
-
-    p.principal{
-      font-weight: bold;
-      margin: 10px;
-    }
-
-    @media (max-width: 768px) {
       header h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        font-family: sans-serif;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        font-style: italic;
+      }
+
+      nav {
+
+        display: flex;
+        justify-content: left;
+        gap: 2rem;
+        padding: 0.2rem;
+        flex-wrap: wrap;
+      }
+
+      nav a {
+        color: var(--marrom);
+        margin: 5px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+
+        border-radius: 20px;
+        transition-duration: 0.5s;
+        border: 2px solid black;
+        background-color: #fa62ccd8;
+        ;
+      }
+
+      nav>a:hover {
+        color: white;
+        padding: 5px;
+      }
+
+      a.inicio {
+        color: #fa62ccd8;
+        background-color: white;
+      }
+
+      a.kiss {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+      }
+
+      a.kiss:hover {
+        background-color: blue;
+        color: var(--rosa);
+      }
+
+      .section {
+        padding: 2rem 1rem;
+        max-width: 1200px;
+        margin: auto;
+
+      }
+
+      section#contato {
+        box-shadow: 0px 0px 10px black;
+      }
+
+      section#sobre {
+        box-shadow: 0px 0px 10px black;
+        text-indent: 30px;
+      }
+
+      section>h2 {
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      section>p {
+        padding: 10px;
+        font-weight: bold;
+      }
+
+      section>ul {
+        list-style-type: '\2714\00A0\00A0';
+        font-weight: bold;
+        padding: 15px;
+        columns: 2;
       }
 
       .gallery {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
       }
-    }
-  </style>
-</head>
-<body>
 
-  <header>
-    <h1><img class="logo" src="imagens/log01.jpeg" alt=""></h1>
-    <h2>KISS GOURMET</h2>
-    <p class="principal">"Tornamos momentos doces inesquecíveis!"</p>
-  </header>
+      .gallery img {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
 
-  <nav>
-    <a class="inicio" href="index.html">Início</a>
-    <a href="pagina_galeria/galeria.html">Galeria</a>
-    <a href="pagina_sobre_nos/sobre_nos.html">Sobre Nós</a>
-    <a href="https://wa.me/557999015660?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os" target="_blank
+      .about,
+      .contact {
+        background-color: var(--rosa-claro);
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      footer {
+        background-color: var(--rosa);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+
+      img.logo {
+        width: 150px;
+        height: 100px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      }
+
+      p.principal {
+        font-weight: bold;
+        margin: 10px;
+      }
+
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        .gallery {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <header>
+      <h1><img class="logo" src="imagens/log01.jpeg" alt=""></h1>
+      <h2>KISS GOURMET</h2>
+      <p class="principal">"Tornamos momentos doces inesquecíveis!"</p>
+    </header>
+
+    <nav>
+      <a class="inicio" href="index.html">Início</a>
+      <a href="pagina_galeria/galeria.html">Galeria</a>
+      <a href="pagina_sobre_nos/sobre_nos.html">Sobre Nós</a>
+      <a href="https://wa.me/557999015660?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os"
+        target="_blank
     ">Contato</a>
-  </nav>
+    </nav>
 
-  <section id="galeria" class="section">
-    <h2>🍰 Nossos Bolos</h2>
-    <div class="gallery">
-      <img src="imagens/foto01.jpg" alt="Bolo 1">
-      <img src="imagens/foto02.jpg" alt="Bolo 2">
-      <img src="imagens/foto03.jpg" alt="Bolo 3">
-      <img src="imagens/foto04.jpg" alt="Bolo 4">
-    </div>
-  </section>
+    <section id="galeria" class="section">
+      <h2>🍰 Nossos Bolos</h2>
+      <div class="gallery">
+        <img src="imagens/foto01.jpg" alt="Bolo 1">
+        <img src="imagens/foto02.jpg" alt="Bolo 2">
+        <img src="imagens/foto03.jpg" alt="Bolo 3">
+        <img src="imagens/foto04.jpg" alt="Bolo 4">
+      </div>
+    </section>
 
-  <section id="sobre" class="section about">
-    <h2>🎂 Sobre Nós</h2>
-    <p>🍰 Seja bem-vindo à Kiss Gourmet! 🎂
-Especialistas em doces por encomenda.
-</p>
+    <section id="sobre" class="section about">
+      <h2>🎂 Sobre Nós</h2>
+      <p>🍰 Seja bem-vindo à Kiss Gourmet! 🎂
+        Especialistas em doces por encomenda.
+      </p>
 
-<p>Na Kiss Gourmet, transformamos seus momentos em verdadeiras celebrações de sabor! Somos uma confeitaria artesanal especializada em serviços sob encomenda, oferecendo produtos frescos, personalizados e feitos com muito carinho.</p>
-  
-<ul>
-  <li> Doces finos e tradicionais</li>
-  <li>Tortas artesanais</li>
-  <li>Sobremesas geladas</li>
-  <li>Kits personalizados para festas e presentes</li>
-  <li>Bolos decorados sob medida</li>
-  <li>Mini sobremesas para eventos</li>
-  <li>Caixas presenteáveis com doce</li>
-  <li>Brigadeiros e trufas gourmet</li>
-  <li>Sobremesas no pote (geladas ou cremosas)</li>
-  <li>Tábua doce para festas e encontros</li>
-  <li>Opções sem glúten e sem lactose</li>
-  <li>Salgados de todos os tipos</li>
-</ul>
+      <p>Na Kiss Gourmet, transformamos seus momentos em verdadeiras celebrações de sabor! Somos uma confeitaria
+        artesanal especializada em serviços sob encomenda, oferecendo produtos frescos, personalizados e feitos com
+        muito carinho.</p>
 
-<p>Atendemos encomendas para aniversários, casamentos, eventos corporativos ou qualquer ocasião especial. Cada detalhe é feito com cuidado, sempre usando ingredientes de qualidade para garantir um sabor inesquecível.</p>
+      <ul>
+        <li> Doces finos e tradicionais</li>
+        <li>Tortas artesanais</li>
+        <li>Sobremesas geladas</li>
+        <li>Kits personalizados para festas e presentes</li>
+        <li>Bolos decorados sob medida</li>
+        <li>Mini sobremesas para eventos</li>
+        <li>Caixas presenteáveis com doce</li>
+        <li>Brigadeiros e trufas gourmet</li>
+        <li>Sobremesas no pote (geladas ou cremosas)</li>
+        <li>Tábua doce para festas e encontros</li>
+        <li>Opções sem glúten e sem lactose</li>
+        <li>Salgados de todos os tipos</li>
+      </ul>
 
-<p>Kiss Gourmet — um beijo de sabor em cada pedaço! 💋🍓</p>
-</section>
+      <p>Atendemos encomendas para aniversários, casamentos, eventos corporativos ou qualquer ocasião especial. Cada
+        detalhe é feito com cuidado, sempre usando ingredientes de qualidade para garantir um sabor inesquecível.</p>
 
-  <section id="contato" class="section contact">
-    <h2>📞 Fale Conosco</h2>
-    <p>WhatsApp: (79) 99901-5660</p>
-    <p>Instagram: <a class="kiss" href="https://www.instagram.com/kiss.gourmet/">@Kiss.gourmet</a></p>
-  </section>
+      <p>Kiss Gourmet — um beijo de sabor em cada pedaço! 💋🍓</p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Delícias da Confeitaria Kiss Gourmet. Todos os direitos reservados.</p>
-  </footer>
+    <section id="contato" class="section contact">
+      <h2>📞 Fale Conosco</h2>
+      <p>WhatsApp: (79) 99901-5660</p>
+      <p>Instagram: <a class="kiss" href="https://www.instagram.com/kiss.gourmet/">@Kiss.gourmet</a></p>
+    </section>
 
-</body>
-</html>
+    <footer>
+      <p>&copy; 2025 Delícias da Confeitaria Kiss Gourmet. Todos os direitos reservados.</p>
+    </footer>
+
+  </body>
+
+  </html>
